@@ -1,2 +1,3 @@
 #!/bin/bash
-/usr/bin/gcc -c -g -std=c99 -Wall snmpy.o main.o -o snmpy
+export CFILE=1-main.c ; ./1-compiler
+
