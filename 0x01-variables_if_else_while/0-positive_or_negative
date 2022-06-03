@@ -1,0 +1,25 @@
+#include <stdlib.h>
+#include <time.h>
+/**
+* main - Entry point
+*/
+int main(void)
+{
+	int n;
+
+	
+srand(time(0));
+	n=rand()-RAND—MAX/2;
+	
+	if (n>0)
+	{
+		answer="%d is positive";
+	if (n=0)
+	{
+		answer="%d is zero";
+	}
+	if (n<0)
+	{
+		answer="%d is negative";
+}
+	return (answer);
