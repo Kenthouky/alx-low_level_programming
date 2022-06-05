@@ -10,7 +10,7 @@ int main(void)
 
 	for (num=0; num<=2; num++)
 	{
-		put charr ((num%10)+'0');
+		putcharr ((num%10)+'0');
 		if (num==2)
 			continue;
 	
