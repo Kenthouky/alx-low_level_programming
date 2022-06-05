@@ -10,15 +10,15 @@ int main(void)
 
 	for (num=0; num<=2; num++)
 	{
-		putcharr ((num%10)+'0');
+		putchar ((num%10)+'0');
 		if (num==2)
 			continue;
 	
-		putcharr (',');
-		putcharr (' ');
+		putchar (',');
+		putchar (' ');
 	}
 
-	putcharr  ('/n');
+	putchar  ('/n');
 
 	return (0);
 }
