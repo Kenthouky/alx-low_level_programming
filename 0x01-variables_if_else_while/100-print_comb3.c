@@ -1,4 +1,4 @@
-#include <studio.h>
+# include <studio.h>
 /**
  * main - Prints all possible combinations  of two digits
  *
