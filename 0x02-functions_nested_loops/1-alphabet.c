@@ -5,14 +5,15 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
 	int letter
-    for (letter= ‘a’; letter<= ‘z’; letter++)
-	    putchar(letter);
 
-    putchar (‘\n’) ;
-    
-    return (0);
+    for (letter= ‘97’; letter<= ‘122’; letter++)
+    {
+	    putchar(letter);
+    }
+
+    putchar (‘\n’);
+
 }
