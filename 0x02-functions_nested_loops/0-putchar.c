@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - prints _putchar as a message
+ * main - Prints _putchar as a message.
  *
- * Return 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,7 +15,5 @@ int main(void)
 		_putchar(str[count]);
 	}
 	_putchar('\n');
-
-
 	return (0);
 }
