@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-    int letter
-	    print_alphabet();
+	print_alphabet();
+	int letter
     for (letter= ‘a’; letter<= ‘z’; letter++)
 	    putchar(letter);
 
