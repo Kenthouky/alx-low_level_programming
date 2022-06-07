@@ -5,11 +5,9 @@
  *
  * Return 0
  */
-int main()
-{
-	while (charred = '_putchar'; charred != '\0')
-		putchar(charred);
-	charred++;
+int main(void) {	
 
-    return (0);
+	putchar (”_putchar\n”);
+
+	return (0);
 }
