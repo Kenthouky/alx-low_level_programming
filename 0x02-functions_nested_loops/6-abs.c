@@ -4,7 +4,7 @@
  *
  * @i: input number as integer
  *
- * Retuen: absolute value
+ * Return: absolute value
  */
 int _abs(int i)
 {
