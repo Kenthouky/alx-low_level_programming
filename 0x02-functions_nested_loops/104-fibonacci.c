@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int c, bolean, bolean2;
+	int a, bolean, bolean2;
 	long int n1, n2, gn, gn2, n11, n22;
 
 	n1 = 1;
