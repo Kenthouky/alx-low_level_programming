@@ -9,5 +9,6 @@
 
 int _strlen(char *s)
 {
-	extern size_t strlen (const char *__s);
+	char *s
+		*s = "My first strlen!";
 }
