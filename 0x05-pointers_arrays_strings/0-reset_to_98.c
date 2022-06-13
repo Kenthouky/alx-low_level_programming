@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Points and updates an int as parameter
+ * reset_to_98 - Points and updates an int as parameter
  *
  * Return: Always 0.
  */
