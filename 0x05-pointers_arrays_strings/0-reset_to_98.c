@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-void reset_to_98(int n, *ip_n)
+void reset_to_98(int n, n*)
 {
 	int n;
 
@@ -20,6 +20,6 @@ void reset_to_98(int n, *ip_n)
 	ip_n = 98;
 	putchar(ip_n);
 
-	putchar('/n');
+	putchar("/n");
 	return (0);
 }
