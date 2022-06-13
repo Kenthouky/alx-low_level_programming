@@ -7,18 +7,18 @@
  * Return: Always 0.
  */
 
-void reset_to_98(int *n)
+void reset_to_98(int n, int *n)
 {
 	int n;
 
 	n = 402;
-	_putchar(n);
+	putchar(n);
 	reset_to_98(&n);
 	int *n = &n;
 
 	*n = 98;
-	_putchar(*n);
+	putchar(*n);
 
-	_putchar('/n');
+	putchar('/n');
 	return (0);
 }
