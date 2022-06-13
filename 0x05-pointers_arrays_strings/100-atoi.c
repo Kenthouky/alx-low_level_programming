@@ -4,7 +4,6 @@
 /**
  * _atoi - converts string to integer
  * @s: input string
- * 
  * Return: integer
  */
 
