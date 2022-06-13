@@ -2,13 +2,15 @@
 #include <string.h>
 
 /**
- * strlen - provides the length of a string
- * @s: string
+ * strlen - provides the length of a string * @s: string
  * Return: Always 0
  */
 
 int _strlen(char *s)
 {
-	char *s = "My first strlen!";
-	return (0);
+	int lenght = 0;
+
+	while (*(s + length) != '\0'
+			length ++;
+		return(length);
 }
