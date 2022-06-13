@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_str - print a string followed by a nee line to stdout
+ * _puts - print a string followed by a nee line to stdout
  * @str: string to be printed
  *
  * Return: Always 0
