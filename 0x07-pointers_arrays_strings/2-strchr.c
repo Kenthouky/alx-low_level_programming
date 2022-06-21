@@ -3,7 +3,7 @@
  * _strchr - locates a character in a string
  * @c: character
  * @s: string
- * Return: 
+ * Return: pointer to first occurence of c
  */
 
 char *_strchr(char *s, char c)
