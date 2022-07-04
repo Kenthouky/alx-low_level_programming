@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - prints name of file
+ * main - prints the name of the compiler file
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 
 int main(void)
