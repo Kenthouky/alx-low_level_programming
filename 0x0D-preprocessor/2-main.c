@@ -8,6 +8,6 @@
 
 int main()
 {
-	puts("%s", _FILE_);
+	puts("%s", __FILE__);
 	return (0);
 }
