@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 
-"""
-
-Defines an island perimeter
-
-"""
+"""Defines an island perimeter measuring function."""
 
 
 
@@ -12,50 +8,44 @@ Defines an island perimeter
 
 def island_perimeter(grid):
 
-        """
+        """Return the perimiter of an island.
 
-            Returns the island perimeter of a grid
+            The grid represents water by 0 and land by 1.
 
-                grid is a list of list of integers:
+                Args:
 
-                        0 represents a water zone
+                        grid (list): A list of list of integers representing an island.
 
-                                1 represents a land zone
+                            Returns:
 
-                                        One cell is a square with side length 1
+                                    The perimeter of the island defined in grid.
 
-                                                Grid cells are connected horizontally/vertically
+                                        """
 
-                                                        Grid is rectangular, width and height don’t exceed 100
+                                            width = len(grid[0])
 
-                                                            Grid is completely surrounded by water, and there is one island
+                                                height = len(grid)
 
-                                                                """
+                                                    edges = 0
 
-                                                                    width = len(grid[0])
-
-                                                                        height = len(grid)
-
-                                                                            grid_edges = 0
-
-                                                                                grid_size = 0
+                                                        size = 0
 
 
 
-                                                                                    for m in range(height):
+                                                            for i in range(height):
 
-                                                                                                for n in range(width):
+                                                                        for j in range(width):
 
-                                                                                                                if(grid[m][n] == 1):
+                                                                                        if grid[i][j] == 1:
 
-                                                                                                                                    grid_size += 1
+                                                                                                            size += 1
 
-                                                                                                                                                    if (n > 0 and grid[m][n - 1] == 1):
+                                                                                                                            if (j > 0 and grid[i][j - 1] == 1):
 
-                                                                                                                                                                            grid_edges += 1
+                                                                                                                                                    edges += 1
 
-                                                                                                                                                                                            if (m > 0 and grid[m - 1][n] == 1):
+                                                                                                                                                                    if (i > 0 and grid[i - 1][j] == 1):
 
-                                                                                                                                                                                                                    grid_edges += 1
+                                                                                                                                                                                            edges += 1
 
-                                                                                                                                                                                                                        return (grid_size * 4 - grid_edges * 2)
+                                                                                                                                                                                                return size * 4 - edges * 2
